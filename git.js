@@ -5,13 +5,23 @@ function question(){
     alert('Resposta: ' + why)
 }
 
-function ryesult(){
-    if(wh == 'tetuda'){
-        alert('Nao eh amor');
+function choice(){
+    
+}
+
+function result(){
+    
+    if(why == 'sim'){
+        let yes = prompt('Por que?');
+        if(yes === 'tetuda')
+        alert('Nao eh amor')
+    else {
+        alert('Eh amor')
+    }
     } else {
         alert('eh amor')
     }
-    }
+    } while(why === 'nao')
 
 
 question()
